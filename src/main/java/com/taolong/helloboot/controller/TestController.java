@@ -13,6 +13,6 @@ public class TestController {
 
     @RequestMapping("helloname")
     public String helloName(@RequestParam  String name){
-        return "test helltttTesto test world 123 dfgdfg"+name;
+        return "你好"+name;
     }
 }
