@@ -11,6 +11,13 @@ public class HellobootApplicationTests {
 
     @Test
     public void contextLoads() {
+
+    }
+
+    @Test
+    public void test(){
+        Object o = null;
+        System.out.println(o.toString());
     }
 
 }
