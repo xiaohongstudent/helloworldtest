@@ -1,6 +1,7 @@
 package com.taolong.helloboot;
 
 import com.taolong.helloboot.controller.TestController;
+import com.taolong.helloboot.service.TestService;
 import org.junit.Assert;
 import org.junit.Test;
 import org.junit.runner.RunWith;
@@ -14,6 +15,9 @@ public class HellobootApplicationTests {
 
     @Autowired
     private TestController testController;
+
+    @Autowired
+    private TestService testService;
 
     @Test
     public void contextLoads() {
@@ -29,6 +33,13 @@ public class HellobootApplicationTests {
     public void testControllerHello(){
         String name = "hongtaolong";
         String result = testController.helloName(name);
+        Assert.assertEquals("你好啊"+name,result);
+    }
+
+    @Test
+    public void testServiceHello(){
+        String name = "hongtaolong";
+        String result = testService.test(name);
         Assert.assertEquals("你好啊"+name,result);
     }
     
