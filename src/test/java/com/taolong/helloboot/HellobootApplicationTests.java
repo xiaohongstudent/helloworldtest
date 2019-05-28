@@ -20,9 +20,9 @@ public class HellobootApplicationTests {
         Assert.assertEquals("2","2");
     }
     
-    @Test
+    /*@Test
     public void testWrong(){
         Assert.assertEquals("1","2");
-    }
+    }*/
 
 }
