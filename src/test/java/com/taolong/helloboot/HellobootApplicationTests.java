@@ -18,11 +18,14 @@ public class HellobootApplicationTests {
     @Test
     public void test(){
         Assert.assertEquals("2","2");
+<<<<<<< HEAD
     }
     
     @Test
     public void testWrong(){
         Assert.assertEquals("1","2");
+=======
+>>>>>>> 87c619018d407573e7a9b0c2bdf615352a34e26d
     }
 
 }
