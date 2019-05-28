@@ -18,6 +18,6 @@ public class TestController {
      */
     @RequestMapping("helloname")
     public String helloName(@RequestParam  String name){
-        return "你好"+name;
+        return "你好A"+name;
     }
 }

@@ -1,5 +1,6 @@
 package com.taolong.helloboot;
 
+import org.junit.Assert;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.boot.test.context.SpringBootTest;
@@ -11,13 +12,12 @@ public class HellobootApplicationTests {
 
     @Test
     public void contextLoads() {
-
+        Assert.assertEquals("1","1");
     }
 
     @Test
     public void test(){
-        Object o = null;
-        System.out.println(o.toString());
+        Assert.assertEquals("1","2");
     }
 
 }
