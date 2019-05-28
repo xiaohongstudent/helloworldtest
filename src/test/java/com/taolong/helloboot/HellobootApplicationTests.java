@@ -43,9 +43,9 @@ public class HellobootApplicationTests {
         Assert.assertEquals("你好啊"+name,result);
     }
     
-    @Test
+    /*@Test
     public void testWrong(){
         Assert.assertEquals("1","2");
-    }
+    }*/
 
 }
