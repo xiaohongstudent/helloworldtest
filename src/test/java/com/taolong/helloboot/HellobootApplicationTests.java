@@ -17,6 +17,11 @@ public class HellobootApplicationTests {
 
     @Test
     public void test(){
+        Assert.assertEquals("2","2");
+    }
+    
+    @Test
+    public void testWrong(){
         Assert.assertEquals("1","2");
     }
 
