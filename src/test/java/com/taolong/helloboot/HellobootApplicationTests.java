@@ -29,7 +29,7 @@ public class HellobootApplicationTests {
         Assert.assertEquals("2","2");
     }
 
-    @Test
+    /*@Test
     public void testControllerHello(){
         String name = "hongtaolong";
         String result = testController.helloName(name);
@@ -41,7 +41,7 @@ public class HellobootApplicationTests {
         String name = "hongtaolong";
         String result = testService.test(name);
         Assert.assertEquals("你好啊"+name,result);
-    }
+    }*/
     
     /*@Test
     public void testWrong(){
