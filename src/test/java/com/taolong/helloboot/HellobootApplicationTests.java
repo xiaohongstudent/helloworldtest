@@ -40,7 +40,7 @@ public class HellobootApplicationTests {
     public void testServiceHello(){
         String name = "hongtaolong";
         String result = testService.test(name);
-        Assert.assertEquals("你好啊 hello"+name,result);
+        Assert.assertEquals("你好啊"+name,result);
     }
     
     /*@Test
